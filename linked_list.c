@@ -68,6 +68,7 @@ void free_list(struct linked_list list) {
     struct list_node *next = current->next; 
     free(current); 
     current = next; 
+  }
 }
 
 // Utility function to help you debugging, do not modify
